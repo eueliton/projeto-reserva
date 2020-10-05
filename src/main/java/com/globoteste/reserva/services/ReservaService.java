@@ -68,7 +68,7 @@ public class ReservaService {
 				// VALIDA ANTES DE ADICIONAR
 				msgErroLocal = validaData(rsvPg, listaIds);
 				msgErro += msgErroLocal;
-				if (msgErroLocal != "") {
+				if (msgErroLocal == "") {
 					reservaPrograma.add(rsvPg);
 				}
 			}
