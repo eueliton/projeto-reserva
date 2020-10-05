@@ -106,7 +106,7 @@ public class ReservaService {
 			}
 		} else {
 
-			msgErro += "\r\nPrograma"+ rsv.getIdPrograma()+" não existente. Reserva não pode ser efetuada.";
+			msgErro += "\r\nPrograma "+ rsv.getIdPrograma()+" não existente. Reserva não pode ser efetuada.";
 
 		}
 
